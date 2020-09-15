@@ -1,5 +1,7 @@
 # Performance Test Results Cheatsheet
 
+[Demo](https://kevinfarrugia.github.io/performance-test-results-cheatsheet/)
+
 The goal of this project is to provide a number of simple scenarios, their WPT results and an explanation on why the performance improves or degrades. Please feel free to suggest your own test scenarios, test results and explanations.
 
 ## Getting Started
