@@ -1,0 +1,32 @@
+/*
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deserunt dolores unde quidem magni doloribus rerum saepe, deleniti tenetur dolore est amet et rem libero sint facere. Explicabo nostrum totam eius, quisquam molestias, quasi quibusdam sapiente ipsa, vel enim esse minus amet aperiam non maiores dolor. Autem et asperiores enim maiores magni natus, iusto omnis itaque ipsa reprehenderit aliquid blanditiis facere hic, officia ex saepe nulla totam porro accusantium dolor? Unde, tenetur vitae! Cumque excepturi laborum molestias? Porro officiis eius nisi quas odio. Provident cupiditate assumenda commodi, saepe expedita impedit? Officia, iusto veritatis? Quasi, aperiam ipsa. Ratione pariatur omnis unde porro veniam impedit provident? Esse corporis alias eius perspiciatis, quaerat vitae possimus incidunt nihil. In ipsum eligendi ipsa debitis.
+*/
+
+.intro {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+.main-content__paragraph {
+  width: 100%;
+  color: rgba(0, 90, 90, 0.5);
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .main-content__paragraph {
+    width: 50%;
+  }
+}

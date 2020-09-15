@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Performance Test Results Cheatsheet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@1.6.2/dist/tailwind.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold text-gray-900 mb-8">
+        Performance Test Results Cheatsheet
+      </h1>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">CSS</h2>
+      <ul class="list-none">        
+        <li class="mb-4">
+          <a
+            href="/inline-critical-css.html"
+            class="text-blue-500 hover:text-blue-800 font-bold"
+            >Inline critical CSS</a
+          >
+          <p>
+            Inline critical CSS and asynchronously load remaining CSS using
+            <a
+              href="https://www.filamentgroup.com/lab/load-css-simpler/"
+              class="text-blue-500 hover:text-blue-800"
+              >media="print" trick</a
+            >
+          </p>
+        </li>
+        <li class="mb-4">
+          <a
+            href="/preconnect-inline-critical-css.html"
+            class="text-blue-500 hover:text-blue-800 font-bold"
+            >Inline critical CSS & preconnect</a
+          >
+          <p>
+            Inline critical CSS. <code>preconnect</code> and asynchronously load remaining
+            CSS using
+            <a
+              href="https://www.filamentgroup.com/lab/load-css-simpler/"
+              class="text-blue-500 hover:text-blue-800"
+              >media="print" trick</a
+            >
+          </p>
+        </li>
+        <li class="mb-4">
+          <a
+            href="/inline-css.html"
+            class="text-blue-500 hover:text-blue-800 font-bold"
+            >Inline CSS</a
+          >
+          <p>Inline all CSS</p>
+        </li>
+        <li class="mb-4">
+          <a
+            href="/render-blocking-css.html"
+            class="text-blue-500 hover:text-blue-800 font-bold"
+            >Render-blocking CSS</a
+          >
+          <p>Connect to external stylesheets in the <code>&lt;head&gt;</code>.</p>
+        </li>
+        <li class="mb-4">
+          <a
+            href="/preconnect-render-blocking-css.html"
+            class="text-blue-500 hover:text-blue-800 font-bold"
+            >Preconnect to render-blocking CSS</a
+          >
+          <p><code>preconnect</code> to the external stylesheets and load them in the <code>&lt;head&gt;</code>.</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

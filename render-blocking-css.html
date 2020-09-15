@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Render Blocking CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://i.picsum.photos" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" type="text/css" media="screen" href="tailwind.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bottom.css" />
+    <script src="critical.js"></script>
+  </head>
+  <body>
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold text-gray-900">Render Blocking CSS</h1>
+      <p class="intro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        repellendus tenetur et accusantium voluptatum tempora illum ipsam
+        ducimus numquam provident. Reiciendis recusandae deleniti repudiandae
+        dolores, culpa obcaecati vitae, rerum sequi modi sit, excepturi a optio
+        reprehenderit aliquid minima at. Necessitatibus quod vel praesentium
+        repudiandae ipsa doloribus? Nesciunt deleniti totam quod.
+      </p>
+      <div class="flex flex-wrap">
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/952/600/600.jpg?hmac=0rmqp5TNmX76DTaUBf5eqiW-6giNAd6QRcBb3t6Ky0c"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/124/600/600.jpg?hmac=-LlW2mNbB-tnkyP3MqslhLkbgyu3Nu9m31KD8AZOBXo"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/22/600/600.jpg?hmac=QEZq7KUHwBZCt3kGSEHMwJlZfnzCxCeBgHjYj7iQ-UY"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/255/600/600.jpg?hmac=-lfdnAl71_eAIy1OPAupFFPh7EOJPmQRJFg-y7lRB3s"
+            alt="image"
+          />
+        </div>
+      </div>
+      <div class="main-content">
+        <p class="main-content__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, non
+          assumenda. Pariatur dicta repellendus eaque odio natus quod, illo
+          accusantium velit ipsa vero? Numquam voluptates magnam neque
+          reiciendis qui aliquid iste nisi iure deserunt dolores, tempora
+          adipisci fugiat architecto quis placeat pariatur? Eum, voluptas
+          deleniti! Illo optio dignissimos iste veritatis dicta error repellat
+          odit laboriosam dolor temporibus unde, ab veniam voluptatem ducimus
+          sint assumenda consequuntur cupiditate fugit non excepturi
+          praesentium. Quaerat, impedit. Reiciendis qui quibusdam ratione ea
+          quam impedit doloremque voluptatum ipsam, sequi rerum possimus alias
+          odit similique quo aut officia, cupiditate commodi, veniam earum quae
+          eligendi. Illum reiciendis ipsum quod quam eaque necessitatibus
+          deserunt nemo magnam, odit earum fugiat quas iure, veritatis repellat,
+          expedita facilis! Fugiat adipisci rem libero ipsa praesentium dolorem
+          culpa quae molestiae eius sequi nam tempora quis aliquam optio
+          quisquam quo eos ratione ipsam, inventore incidunt vero deleniti,
+          repellat modi? Dolores expedita rerum modi libero possimus hic itaque
+          maxime molestias tempore aliquid fugit quae id, iste blanditiis,
+          cumque voluptate accusamus culpa veritatis rem totam. Dolore eos amet
+          harum modi ducimus, laborum veritatis, repellendus soluta porro,
+          laudantium numquam rerum! Consectetur, quos obcaecati natus optio
+          distinctio eaque dolores? Corrupti itaque fugit a nostrum possimus
+          ipsum, animi eveniet? Optio.
+        </p>
+        <p class="main-content__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          repellendus tenetur et accusantium voluptatum tempora illum ipsam
+          ducimus numquam provident. Reiciendis recusandae deleniti repudiandae
+          dolores, culpa obcaecati vitae, rerum sequi modi sit, excepturi a
+          optio reprehenderit aliquid minima at. Necessitatibus quod vel
+          praesentium repudiandae ipsa doloribus? Nesciunt deleniti totam quod.
+        </p>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/485/600/600.jpg?hmac=4Z5Q8xGodOc98r2DIIDuzYuyxdmu1GaWtczgs3mthsg"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/314/600/600.jpg?hmac=w6aO4tziI3cwTIlDmSXe7RwJBZibmbyEXXAmdB2njfU"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/588/600/600.jpg?hmac=0YL4JxQkQ4HqNgrLcYlaFiPeWbakRkjsulckQj-xQR8"
+            alt="image"
+          />
+        </div>
+        <div class="md:w-1/4 p-2 sm:w-1/2">
+          <img
+            src="https://i.picsum.photos/id/782/600/600.jpg?hmac=Xc9ne5k2S9c0lhjTZ0LtmrSOFZDhDoNcxDm2M830WGU"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+    <script async src="main.js"></script>
+  </body>
+</html>
