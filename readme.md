@@ -1,14 +1,15 @@
 # Performance Test Results Cheatsheet
 
-[Demo](https://kevinfarrugia.github.io/performance-test-results-cheatsheet/)
+Test Results: https://kevinfarrugia.github.io/performance-test-results-cheatsheet/
 
 The goal of this project is to provide a number of simple scenarios, their WPT results and an explanation on why the performance improves or degrades. Please feel free to suggest your own test scenarios, test results and explanations.
 
 ## Getting Started
-To run the project locally, you need [Node.js](https://nodejs.org/en/) >= 12.18.1
+The project may be run on any simple webserver as it is comprised solely of static assets and there is no bundling process. Personally I use [Node.js](https://nodejs.org/en/) and `npx serve`.
 
 1. Clone the repository
-2. Run the web server
+2. Open the repository folder
+3. Run the web server:
 ```
 npx serve
 ```
