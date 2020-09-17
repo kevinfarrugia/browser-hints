@@ -17,6 +17,22 @@
         Performance Test Results Cheatsheet
       </h1>
       <h2 class="text-2xl font-bold text-gray-900 mb-4">CSS</h2>
+      <p class="mb-8">
+        The scope of these tests is to have a fair comparison of different
+        methods of serving CSS content. The use or absence of third-party CSS libraries,
+        build tools, minification...etc is beyond the scope of these tests.
+        <ul class="mb-8 ml-4 list-disc text-sm">
+          <li>
+            <a href="critical.css">critical.css</a> (1.4KB): only includes the CSS being used above the fold.
+          </li>
+          <li>
+            <a href="bottom.css">bottom.css</a> (21.4KB): includes the CSS being used below the fold and lots more of unused CSS.
+          </li>
+          <li>
+            <a href="main.css">main.css</a> (22.0KB): combines <code>critical.css</code> and <code>bottom.css</code>.
+          </li>
+        </ul>
+      </p>
       <ul class="list-none">
         <li class="mb-8">
           <a
@@ -35,7 +51,8 @@
           <p class="font-semibold text-sm">
             Test Results:
             <a
-              class="text-blue-500 hover:text-blue-800" href="https://webpagetest.org/result/200916_59_7de01eb08f36310a796f026f090379b9/"
+              class="text-blue-500 hover:text-blue-800"
+              href="https://webpagetest.org/result/200916_59_7de01eb08f36310a796f026f090379b9/"
               >WPT</a
             >
           </p>
@@ -53,7 +70,8 @@
           <p class="font-semibold text-sm">
             Test Results:
             <a
-              class="text-blue-500 hover:text-blue-800" href="https://webpagetest.org/result/200916_1H_f4cad74227f41ea64b23a1ca63863003/"
+              class="text-blue-500 hover:text-blue-800"
+              href="https://webpagetest.org/result/200916_72_ff6833e0ac1a5e972855400cfdd8e7bf/"
               >WPT</a
             >
           </p>
@@ -64,11 +82,12 @@
             class="text-blue-500 hover:text-blue-800 font-bold"
             >Inline CSS</a
           >
-          <p>Inline all CSS, total document size: 139kb (compressed)</p>
+          <p>Inline all CSS, total document size: 139KB (compressed)</p>
           <p class="font-semibold text-sm">
             Test Results:
             <a
-              class="text-blue-500 hover:text-blue-800" href="https://webpagetest.org/result/200916_JE_b9aa8fa461644e541148a244d740e42b/"
+              class="text-blue-500 hover:text-blue-800"
+              href="https://webpagetest.org/result/200916_JE_b9aa8fa461644e541148a244d740e42b/"
               >WPT</a
             >
           </p>
@@ -85,7 +104,8 @@
           <p class="font-semibold text-sm">
             Test Results:
             <a
-              class="text-blue-500 hover:text-blue-800" href="https://webpagetest.org/result/200916_Q6_3c60bbea41fd0fe13c3f5b8e451875af/"
+              class="text-blue-500 hover:text-blue-800"
+              href="https://webpagetest.org/result/200916_Q6_3c60bbea41fd0fe13c3f5b8e451875af/"
               >WPT</a
             >
           </p>
@@ -103,7 +123,8 @@
           <p class="font-semibold text-sm">
             Test Results:
             <a
-              class="text-blue-500 hover:text-blue-800" href="https://webpagetest.org/result/200916_QN_8bbc7fb39724f00c3dc80b2733f4fe2d/"
+              class="text-blue-500 hover:text-blue-800"
+              href="https://webpagetest.org/result/200916_2N_626c5d57afa7f29332317214d2bf83a7/"
               >WPT</a
             >
           </p>
